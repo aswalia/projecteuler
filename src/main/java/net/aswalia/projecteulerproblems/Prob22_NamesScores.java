@@ -48,6 +48,6 @@ public class Prob22_NamesScores {
     }
 
     public static void main(String[] args) {
-        Prob22_NamesScores.readFile("C:\\Users\\asi\\Documents\\home\\Development\\ProjectEulerProblems\\src\\main\\resources\\0022_names.txt");
+        Prob22_NamesScores.readFile("src/main/resources/0022_names.txt");
     }
 }

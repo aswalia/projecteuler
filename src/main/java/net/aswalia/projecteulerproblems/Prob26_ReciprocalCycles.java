@@ -31,10 +31,10 @@ public class Prob26_ReciprocalCycles {
             if (isPrime(i)) {
                 if ((MAX_DENORMINATOR % i != 0) && (MAX_DENORMINATOR % i != 1)) {
                 // has a tail
-                count++;
-                BigDecimal factor = ONE.divide(new BigDecimal(i), 150, RoundingMode.HALF_UP);               
-//            BigDecimal factor = ONE.divide(new BigDecimal(i), MathContext.DECIMAL128);
-                System.out.println(i + " " + factor);
+                    count++;
+                    BigDecimal factor = ONE.divide(new BigDecimal(i), 150, RoundingMode.HALF_UP);               
+    //            BigDecimal factor = ONE.divide(new BigDecimal(i), MathContext.DECIMAL128);
+                    System.out.println(i + " " + factor);
                 }
             }
         }
